@@ -1,0 +1,44 @@
+[
+    {
+        "info":"Профиль",
+        "router":"",
+        "notifications": 0,
+        "key":1
+    },
+    {
+        "info":"Избранное",
+        "router":"/LikedPage",
+        "notifications": 0,
+        "key":2
+    },
+    {
+        "info":"Статус заказа",
+        "router":"",
+        "notifications": 0,
+        "key":3
+    },
+    {
+        "info":"Доставка и оплата",
+        "router":"",
+        "notifications": 0,
+        "key":4
+    },
+    {
+        "info":"Оферта",
+        "router":"",
+        "notifications": 0,
+        "key":5
+    },
+    {
+        "info":"Гарантия и возврат",
+        "router":"",
+        "notifications": 0,
+        "key":6
+    },
+    {
+        "info":"Как выбрать украшение",
+        "router":"",
+        "notifications": 0,
+        "key":7
+    }
+]

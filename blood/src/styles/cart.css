@@ -1,0 +1,141 @@
+.he1000{
+    height: 1000px;
+}
+
+.cartGoods{
+    display: grid;
+    grid-template-columns: repeat(1,100%);
+    grid-row-gap: 20px;
+    margin-top: 16px;
+}
+
+.cartsGood{
+    border-bottom:1px solid gray;
+
+}
+
+@media screen and (max-width: 768px) {
+    #cartsGoodContainer{
+      margin-left:0 !important;
+      margin-right:0 !important;
+    }
+
+    .good{
+        grid-template-columns: 4fr 1fr !important;
+    }
+
+    .cartInfo{
+        display: none !important;
+    }
+    .deleteFromCart{
+        display: none !important;
+    }
+
+    .itogo{
+        display: grid;
+        grid-template-columns: 2fr 1fr 2fr !important;
+    }
+
+    .oform{
+        display: grid;
+        grid-template-columns: 5fr !important;
+    }
+
+
+  }
+
+.cartsGoodImage{
+    height: 120px;
+    width: 120px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+.good{
+    display: grid;
+    grid-template-columns: repeat(5,20%);
+    width: 100%;
+}
+
+
+
+.cartInfo{
+    display: grid;
+    grid-template-columns: repeat(5,20%);
+    
+    font-weight: 500;
+    font-size: large;
+}
+
+.name_id{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.am_it{
+    margin-left: 20px;
+    user-select: none;
+}
+
+.am_it:first-child{
+    margin-left:0
+}
+
+.itogo{
+    display: grid;
+    grid-template-columns: repeat(5,20%);
+}
+
+.oform{
+    display: grid;
+    grid-template-columns: repeat(5,20%);
+}
+
+.clearCart{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid gray;
+    border-radius: 15px;
+    color: gray;
+    cursor: pointer;
+}
+
+.clearCart:hover{
+    color:white;
+    background-color: black;
+}
+
+.deleteFromCart{
+    color: gray;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    cursor: pointer;
+    border-bottom: 1px solid gray transparent;  
+}
+.deleteFromCart:hover{
+    color: black;
+}
+
+.cena{
+    position: relative;
+}
+
+.cartSubmit{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    border: black 1px solid;
+}
+
+.cartSubmit:hover{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: black 1px solid;
+    color: white;
+    background-color: black;
+}

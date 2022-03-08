@@ -1,0 +1,15 @@
+/* .caruselbutton{
+    border: 1px solid rgba(0, 0, 0, 0.4);
+    opacity: 40%;
+    color:white;
+    background-color: rgba(0, 0, 0, 0.4);
+    cursor: pointer;
+
+} */
+
+.carousel-indicators button{
+    display: none !important;
+    
+    
+}
+

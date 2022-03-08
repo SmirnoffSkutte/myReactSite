@@ -1,0 +1,151 @@
+.goodsButton{
+        position: relative;
+        width: 100%;
+}
+
+
+.dinamic_korzina{
+    
+   
+    display: none;
+    position: absolute;
+    padding-top:0;
+    overflow: hidden;
+    outline:  black 1px solid;
+    border-top: 1px white;
+    border-bottom: none;
+    border-radius: 15px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+   z-index: 2;
+    
+}
+
+.dinamic_korzina_unhide{
+    display: flex;
+    position: absolute;
+    padding-top:0;
+    overflow: hidden;
+    outline:  black 1px solid;
+    border-top: 1px white;
+    border-radius: 15px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    z-index: 2;
+    width: 100%;
+    height: 100px;
+}
+
+
+.korzina_v_tovare{
+    width: 100%;
+    background-color: black;
+    color:white;
+    font-weight: 600;
+    
+}
+
+.korzina_v_tovare_hovered{
+    width: 100%;
+    background-color: red;
+    color:white;
+    font-weight: 600;
+    
+}
+
+.liked_check {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    
+    height: inherit;
+    width: inherit;
+    
+    
+    appearance: none;
+    user-select: none;
+}
+
+.l_off{
+    background-image: url('/public/img/svg/liked_off.svg');
+    cursor: pointer;
+}
+
+.l_on{
+    cursor: pointer;
+    background-size: 100%;
+    background-image: url('/public/img/svg/liked.svg');
+}
+
+.check_like{
+    position: absolute;
+    background-image: url('/public/img/svg/liked_off.svg');
+    height: 40px !important;  /* Высота не задается из-за element.style в браузере,она задана через !important */
+    width: 40px;
+    top:15px;
+    right:15px;
+    cursor: pointer;
+    
+}
+
+.p_d_blok{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+ 
+.price{
+    font-weight: 500;
+    font-size: x-large;
+    display: flex;
+
+}
+
+.goods_img{
+    overflow: hidden;
+    border-radius: 15px;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.back{
+   position: relative;
+   background-repeat: no-repeat;
+   background-size: 100%;
+   padding-bottom: 100%;
+}
+
+.content{
+    padding: 10px;
+}
+
+.content li{
+    padding: 10px;
+}
+  
+.goods_name{
+    font-weight: 600;
+    font-size: large;
+}
+@media screen and (max-width: 1565px){
+    .p_d_blok{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: baseline;
+    }  
+}
+
+.goodsBorder{
+    outline: 1px solid black;
+    border-radius: 15px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.green{
+    background-color: green;
+}
+
+.red{
+    background-color: red;
+}

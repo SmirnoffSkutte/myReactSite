@@ -1,0 +1,88 @@
+.menuBlock{
+    width: 100%;
+    z-index: 10;
+    position: absolute;
+    margin:0 !important;
+    top:0;
+    left:0;
+    
+}
+
+.marg-l12{
+    margin-left: 36px;
+}
+.menuList{
+    margin-bottom:0 ;
+    padding-left:0;
+
+}
+
+.menuListItem{
+    height: 40px;
+    background-color: #e8e8e8;
+    justify-content: center;
+    display: flex;
+    border-bottom:1px solid black;
+}
+
+.itemHovered{
+    background-color: white;
+    color: black;
+    justify-content: center;
+    display: flex;
+    border-bottom:1px solid black;
+    height: 40px;
+}
+
+.close{
+    
+    height: 60px;
+    border-bottom:1px solid black;
+    display: flex;
+    align-items: center;
+}
+
+.menuActive{
+    display: flex;
+}
+
+.menuDisabled{
+    display: none;
+}
+
+a {
+    outline: none;
+    text-decoration: none;
+    color:black
+  }
+  
+  a:link {
+    outline: none;
+    text-decoration: none;
+    color:black
+  }
+  
+  a:visited {
+    outline: none;
+    text-decoration: none;
+    color:black
+  }
+    
+  
+  a:focus {
+    outline: none;
+    text-decoration: none;
+    color:black
+  }
+  
+  a:hover {
+    outline: none;
+    text-decoration: none;
+    color:black
+  }
+  
+  a:active {
+    outline: none;
+    text-decoration: none;
+    color:black
+  }

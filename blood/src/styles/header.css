@@ -1,0 +1,48 @@
+.header{
+    background-color: rgba(231, 234, 239, 1);
+}
+
+.cartCount{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background: black;
+    color:white;
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    
+
+}
+
+.cartImage{
+    width: 35px;
+    height: 35px;
+    background-image: url('../../public/img/svg/shopping\ bag.svg');
+    background-repeat: no-repeat;
+}
+
+.likedImage{
+    width: 35px;
+    height: 35px;
+    background-image: url('../../public/img/svg/liked_header.svg');
+    background-repeat: no-repeat;
+}
+.adminImage{
+    width: 35px;
+    height: 35px;
+    background-image: url('../../public/img/svg/admin.svg');
+    background-repeat: no-repeat;
+}
+
+
+.df{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-top: 10px;
+}

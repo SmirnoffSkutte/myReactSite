@@ -1,0 +1,168 @@
+/* inter-500 - latin_cyrillic-ext_cyrillic */
+@font-face {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    src: local(''),
+         url('../fonts/inter-v7-latin_cyrillic-ext_cyrillic-500.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/inter-v7-latin_cyrillic-ext_cyrillic-500.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* montserrat-regular - latin_cyrillic-ext_cyrillic */
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''),
+         url('../fonts/montserrat-v18-latin_cyrillic-ext_cyrillic-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/montserrat-v18-latin_cyrillic-ext_cyrillic-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  body{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 1.2;
+    color: black;
+
+
+  }
+  html {
+      box-sizing: border-box;
+  }
+  *, *::before,*::after{
+      box-sizing: inherit;
+  }
+
+
+  .grey {
+
+  }
+
+  .bt{
+    border-top:1px solid gray;
+  }
+
+  .b1g{
+    border:1px solid gray
+  }
+
+  .he60{
+    height: 60px;
+  }
+  .he90{
+    height: 90px;
+  }
+
+  .he600{
+    height: 600px;
+  }
+
+  .he260{
+    height: 260px;
+  }
+
+  .he176{
+    height: 176px;
+  }
+
+  .he550{
+    height: 550px;
+  }
+
+  .he32{
+    height: 32px;
+  }
+
+  .he16{
+    height: 16px;
+  }
+
+  .he0{
+    height: 0;
+  }
+
+  .arrivalGoods{
+    margin-top:16px !important; 
+    display: grid;
+    grid-template-columns: repeat(3,32%);
+    grid-row-gap:20px;
+    justify-content: space-between;
+  }
+
+  @media screen and (max-width: 992px) {
+    .arrivalGoods{
+      margin-top:16px !important; 
+      display: grid;
+      grid-template-columns: repeat(2,49%);
+      grid-row-gap:20px;
+      justify-content: space-between;
+    }
+
+
+  }
+
+  @media screen and (max-width: 576px) {
+    .arrivalGoods{
+      margin-top:16px !important; 
+      display: grid;
+      grid-template-columns: repeat(1,100%);
+      grid-row-gap:20px;
+      justify-content: space-between;
+    }
+
+
+  }
+
+  .w100{
+    width: 100%;
+  }
+
+
+  .arrivalGood{
+    padding-top: 100%;
+  }
+
+  .dfc{
+    display: flex;
+    align-items: center;
+  }
+
+  .jcc{
+    justify-content: center;
+  }
+
+  .sb{
+    justify-content: space-between;
+  }
+
+  .paddingNone{
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+  }
+
+  .sticky{
+    top:0px;
+    position: sticky;
+    z-index: 5;
+  }
+
+  .pointer{
+    cursor: pointer;
+  }
+
+  .marg-l{
+    margin-left: 5px;
+  }
+
+  .marg-r{
+    margin-right: 5px;
+  }
+
+  .mr3{
+    margin-right: 30px;
+  }
+
+  .ml3{
+    margin-left: 30px;
+  }
+

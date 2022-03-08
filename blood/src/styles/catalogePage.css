@@ -1,0 +1,64 @@
+.fitrUnhideButton{
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top:10px;
+    padding-bottom: 10px;
+}
+
+.filtrGrid{
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    grid-gap: 10px;
+}
+
+.filtrButton{
+    border: 1px solid gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:gray
+}
+
+.filtrButton:hover{
+    
+        border: 1px solid gray;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color:white;
+        background-color: black;
+    
+}
+
+.filtrButton .check-button:checked + .filtr-item {
+    
+    color:white;
+    background-color: black;
+  }  
+
+.mtl3{
+    margin-left:30px;
+    padding-top: 10px;
+}
+
+.filtrButtonOut{
+    border: 1px solid gray;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.check-button {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+
+.filtr-item{
+    padding: 5px;
+    width: 100%;
+}
+
